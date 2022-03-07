@@ -8,11 +8,11 @@
     "server":{
         "ip": "natbmb1.aternos.me",
         "port": 25565,
-        "version": "1.17.1"
+        "version": "1.12.2"
     },
 
     "position":{
-        "enabled": false,
+        "enabled": true,
         "x": 0,
         "y": 0,
         "z": 0
@@ -20,18 +20,18 @@
 
     "utils":{
         "auto-auth":{
-            "enabled": false,
+            "enabled": true,
             "password": "12345678"
         },
 
         "anti-afk":{
-            "enabled": false,
-            "sneak": false
+            "enabled": true,
+            "sneak": true
         },
 
         "chat-messages":{
-            "enabled": false,
-            "repeat": true,
+            "enabled": true,
+            "enabled": true,
             "repeat-delay": 60,
 
             "messages": [
